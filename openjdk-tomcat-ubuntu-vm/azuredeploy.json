@@ -145,20 +145,20 @@
       "properties": {
         "securityRules": [
           {
-            "name": "default-allow-22",
+            "name": "AllowSSH",
             "properties": {
               "priority": 1000,
               "access": "Allow",
               "direction": "Inbound",
-              "destinationPortRange": "22",
               "protocol": "Tcp",
               "sourceAddressPrefix": "*",
               "sourcePortRange": "*",
-              "destinationAddressPrefix": "*"
+              "destinationAddressPrefix": "*",
+              "destinationPortRange": "22"
             }
           },
           {
-            "name": "HTTP",
+            "name": "AllowHTTP",
             "properties": {
               "priority": 110,
               "access": "Allow",

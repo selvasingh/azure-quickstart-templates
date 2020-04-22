@@ -59,4 +59,4 @@ Once the VM is successfully provisioned, tomcat installation can be verified by 
 
 [Azure Resource Manager documentation](https://docs.microsoft.com/azure/azure-resource-manager/)
 
-`Tags: Azure4Student, virtual machine, Linux, Ubuntu Server, Beginner, TomCat, Java, Zulu, OpenJDK`
+`Tags: Linux, Ubuntu, TomCat, Java, Zulu, OpenJDK, Beginner`
