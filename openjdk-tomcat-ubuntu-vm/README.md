@@ -9,7 +9,7 @@
 <IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/openjdk-tomcat-ubuntu-vm/BestPracticeResult.svg" />&nbsp;
 <IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/openjdk-tomcat-ubuntu-vm/CredScanResult.svg" />&nbsp;
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fselvasingh%2Fazure-quickstart-templates%2Fjava-dev-linux%2Fopenjdk-tomcat-ubuntu-vm%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fselvasingh%2Fazure-quickstart-templates%2Fjava-dev-linux-2%2Fopenjdk-tomcat-ubuntu-vm%2Fazuredeploy.json" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true"/>
 </a>
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fopenjdk-tomcat-ubuntu-vm%2Fazuredeploy.json" target="_blank">
@@ -21,7 +21,7 @@
 This template deploys a Ubuntu VM with the Azul Zulu for Azure - Enterprise Edition, a supported OpenJDK JVM from Azul, and Tomcat.<br/> 
 Authentication can be done using an sshPublicKey or a Password.
 
-hoices for Ubuntu are version 18.04-LTS, 16.04-LTS, or 14.04.5-LTS.<br/>
+Choices for Ubuntu are version 18.04-LTS, 16.04-LTS, or 14.04.5-LTS.<br/>
 The default is Ubuntu 18.04-LTS.
 
 Choices for the Zulu OpenJDK JVM are the JDK, JRE, or Headless JRE for the latest release of Java 7, 8, 11, or 13.<br/>
