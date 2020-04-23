@@ -16,7 +16,7 @@
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true"/>
 </a>
 
-# Overview
+## Overview
 
 This template deploys a Ubuntu VM with the Azul Zulu for Azure - Enterprise Edition, a supported OpenJDK JVM from Azul, and Tomcat.<br/> 
 Authentication can be done using an sshPublicKey or a Password.
@@ -30,7 +30,7 @@ The default is the Zulu Java 8 JDK.
 Choices for Tomcat are version 7, 8, or 9.<br/>
 The default is Tomcat version 9.
 
-The VM is deployed in the resource group location using the latest patched version of the Ubuntu 18.04-LTS distribution using a Standard_D2s_v3 size VM as the default value and will return the admin user name, virtual network name, network security group name and FQDN.
+The VM is deployed in the resource group location by default using the latest patched version of the Ubuntu 18.04-LTS distribution and a Standard_D2s_v3 size VM as the default value and will return the admin user name, virtual network name, network security group name and FQDN.
 
 The custom script file is pulled from https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/openjdk-tomcat-ubuntu-vm/java-tomcat-install.sh
 
