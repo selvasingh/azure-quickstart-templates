@@ -34,7 +34,7 @@ The VM is deployed in the resource group location by default using the latest pa
 
 The custom script file is pulled from https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/openjdk-tomcat-ubuntu-vm/java-tomcat-install.sh
 
-Once the VM is successfully provisioned, tomcat installation can be verified by accessing the link http://[FQDN name or public IP]:8080/  
+Once the VM is successfully provisioned, tomcat installation can be verified by accessing the link http://\<FQDN name or public IP\>:8080/  
 
 **If you are new to the Azul Zulu OpenJDK JVM, see:**
 
