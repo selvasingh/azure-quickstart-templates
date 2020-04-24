@@ -32,7 +32,7 @@ The default is Tomcat version 9.
 
 The VM is deployed in the resource group location by default using the latest patched version of the Ubuntu 18.04-LTS distribution and a Standard_D2s_v3 size VM as the default value and will return the admin user name, virtual network name, network security group name and FQDN.
 
-The custom script file is pulled from https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/openjdk-tomcat-ubuntu-vm/java-tomcat-install.sh
+The Zulu and Tomcat install script is available [here.](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/openjdk-tomcat-ubuntu-vm/java-tomcat-install.sh)
 
 Once the VM is provisioned, tomcat installation can be verified by accessing http://\<FQDN name or public IP\>:8080/  
 
